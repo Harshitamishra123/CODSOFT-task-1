@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="c11.css">
+<title>Travel Booking System</title>
+</head>
+<body style="background: url(b2.png); background-size: cover ;">
+  <header class="container">
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#booking">Book Now</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="home" class="container">
+    <h1>Welcome to our Travel Booking System</h1>
+    <p>Flying might not be all plain sailing ,but the fun of it is worth the price</p>
+  </section>
+  
+  <section id="about" class="container">
+    <h2>About Us</h2>
+    <p>We are dedicated to providing you with the best travel services.</p>
+  </section>
+  
+  <section id="services" class="container">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Flight and Hotel Bookings</li>
+      <li>Guided Tours</li>
+      <li>Car Rentals</li>
+      <li>Customized Travel Packages</li>
+    </ul>
+  </section>
+  
+  <section id="booking" class="container">
+   
+    <div class="container">
+        <h1>Travel Booking</h1>
+        <form>
+            <label for="departure">Departure:</label>
+          <input type="text" id="departure" name="departure" required>
+          
+          <label for="destination">Destination:</label>
+          <input type="text" id="destination" name="destination" required>
+          
+          <label for="check-in">Check-In Date:</label>
+          <input type="date" id="check-in" name="check-in" required>
+          
+          <label for="check-out">Check-Out Date:</label>
+          <input type="date" id="check-out" name="check-out" required>
+          
+          <label for="adults">Adults:</label>
+          <input type="number" id="adults" name="adults" min="1" required>
+          
+          <label for="children">Children:</label>
+          <input type="number" id="children" name="children" min="0" required>
+          
+          <button type="submit">Book Now</button>
+        </form>
+      </div>
+  </section>
+</body>
+</html>
